@@ -101,7 +101,7 @@ class _HomeState extends State<Home> {
     }
     Map<String, dynamic> filters = Map();
     if (filterOptions.containsKey("auth")) {
-      filters["auth"] = ("Auth: ${filterOptions["authOption"]}");
+      filters["auth"] = ("Auth: ${filterOptions["auth"]}");
     }
     if (filterOptions.containsKey("cors")) {
       filters["cors"] = ("Cors: ${filterOptions["cors"]}");
