@@ -106,7 +106,7 @@ class _FilterPanelState extends State<FilterPanel>
               child: Text("OAUTH"),
             ),
             DropdownMenuItem(
-              value: "X_Mashape_Key",
+              value: "X-Mashape-Key",
               child: Text("X Mashape key"),
             ),
           ],
